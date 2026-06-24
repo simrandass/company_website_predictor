@@ -46,12 +46,4 @@ Infrastructure: Requests, Serper (Google Search) API
 Architecture & Implementation Layout
 The repository contains standalone cells addressing different phases of the lifecycle:
 
-Cells 1-3: Data preprocessing, engineering vectors, and running GroupKFold evaluations.
 
-Cell 7: Live head-to-head performance benchmarking.
-
-Cell 8: Serialization (joblib.dump) of production-ready classifiers trained on 100% of the dataset.
-
-Cell 9: Auto-checkpointed structural pipeline to batch-process 5,500+ unlabelled rows with live API connections.
-
-Cell 10: Interactive user function (find_single_company_multi_model) allowing a single ad-hoc company lookup via either "XGB" or "RF" modes on demand.
