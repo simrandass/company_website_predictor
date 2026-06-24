@@ -1,0 +1,12 @@
+# Ignore python virtual environments or system caches
+__pycache__/
+.ipynb_checkpoints/
+vnv/
+.env
+
+# Ignore your data files (protect proprietary data)
+*.csv
+*.xlsx
+
+# Ignore your heavy model binaries (GitHub has a 100MB file limit)
+*.joblib
