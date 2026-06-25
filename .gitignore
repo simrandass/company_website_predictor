@@ -10,3 +10,5 @@ vnv/
 
 # Ignore your heavy model binaries (GitHub has a 100MB file limit)
 *.joblib
+
+test.ipynb
