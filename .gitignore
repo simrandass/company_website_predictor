@@ -12,3 +12,7 @@ vnv/
 *.joblib
 
 test.ipynb
+
+kaggle_dataset.py
+
+improved_model.ipynb
